@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Godla Sravani - Computer Science Engineering graduate and web developer portfolio">
+  <title>Godla Sravani | Web Developer</title>
+  <!-- Google Fonts for modern typography -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Ambient background glow (updated for light theme) -->
+  <div class="glow-bg"></div>
+
+  <header class="header">
+    <nav class="navbar container">
+      <a class="logo" href="#home">GS<span>.</span></a>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero fade-in">
+      <div class="container hero-grid">
+        <div class="hero-text slide-up">
+          <div class="status-badge">
+            <span class="pulse-dot"></span> Available for Opportunities
+          </div>
+          <p class="eyebrow">COMPUTER SCIENCE ENGINEERING GRADUATE</p>
+          <h1>Hi, I'm <span class="gradient-text animated-gradient">Godla Sravani</span></h1>
+          <h2>Web Developer &amp; Software Enthusiast</h2>
+          <p class="hero-description">
+            I build responsive web applications using HTML, CSS, JavaScript, Python, Flask, and SQL. 
+            I enjoy turning complex problems into simple, beautiful, and intuitive digital experiences.
+          </p>
+          <div class="hero-buttons">
+            <a class="btn primary hover-lift" href="#projects">View Projects</a>
+            <a class="btn secondary hover-lift" href="#contact">Contact Me</a>
+          </div>
+          <div class="social-links">
+            <a href="https://github.com/sravani1313" target="_blank" rel="noopener">GitHub ↗</a>
+            <a href="https://www.linkedin.com/in/sravani-g-950b7a259" target="_blank" rel="noopener">LinkedIn ↗</a>
+            <a href="mailto:godlasravani904@gmail.com">Email ↗</a>
+          </div>
+        </div>
+        
+        <div class="hero-visual zoom-in">
+          <div class="hero-card light-panel professional-card">
+            <div class="avatar-ring">
+              <!-- ADD YOUR PICTURE HERE -->
+              <!-- Replace the source below with your actual image path, e.g., images/portrait.jpg -->
+              <img src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80" alt="Godla Sravani professional portrait" class="avatar">
+            </div>
+            <h3>Godla Sravani</h3>
+            <p class="muted">B.Tech CSE • Web Developer</p>
+            <div class="mini-stats">
+              <div class="stat-box"><strong>7.82</strong><small>CGPA</small></div>
+              <div class="stat-box"><strong>3+</strong><small>Projects</small></div>
+              <div class="stat-box"><strong>CSA</strong><small>Certified</small></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section fade-in">
+      <div class="container">
+        <p class="section-label">ABOUT ME</p>
+        <h2 class="section-title">A little about me</h2>
+        <div class="about-grid bento-grid">
+          <div class="light-panel bento-large staggered-animate" data-delay="1">
+            <p>
+              I am a Computer Science Engineering graduate from Srinivasa Ramanujan Institute of Technology, 
+              Anantapur. I have hands-on experience in Python, Flask, SQL, and front-end web development.
+            </p>
+            <br>
+            <p>
+              I am passionate about building practical web applications, exploring new technologies, and 
+              contributing to collaborative, open-source software projects on GitHub.
+            </p>
+          </div>
+          <div class="light-panel bento-small info-list staggered-animate" data-delay="2">
+            <div class="info-item"><span>Location</span><strong>Guntakal, AP</strong></div>
+            <div class="info-item"><span>Degree</span><strong>B.Tech - CSE</strong></div>
+            <div class="info-item"><span>CGPA</span><strong>7.82</strong></div>
+            <div class="info-item"><span>Focus</span><strong>Web Development</strong></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section fade-in alternate-bg">
+      <div class="container">
+        <p class="section-label">TECHNICAL SKILLS</p>
+        <h2 class="section-title">What I work with</h2>
+        <div class="skills-grid staggered-parent">
+          <div class="skill-card light-panel hover-grow staggered-animate">
+            <div class="skill-icon">🐍</div>
+            <h3>Programming</h3>
+            <p>Python</p>
+          </div>
+          <div class="skill-card light-panel hover-grow staggered-animate">
+            <div class="skill-icon">💻</div>
+            <h3>Web Development</h3>
+            <p>HTML • CSS • JavaScript • Flask</p>
+          </div>
+          <div class="skill-card light-panel hover-grow staggered-animate">
+            <div class="skill-icon">🗄️</div>
+            <h3>Database</h3>
+            <p>SQL • SQLite</p>
+          </div>
+          <div class="skill-card light-panel hover-grow staggered-animate">
+            <div class="skill-icon">⚙️</div>
+            <h3>Concepts</h3>
+            <p>OOP • CRUD • REST APIs • MVC</p>
+          </div>
+          <div class="skill-card light-panel hover-grow staggered-animate">
+            <div class="skill-icon">🛠️</div>
+            <h3>Tools</h3>
+            <p>Git • GitHub • VS Code • ServiceNow</p>
+          </div>
+          <div class="skill-card light-panel hover-grow staggered-animate">
+            <div class="skill-icon">🤝</div>
+            <h3>Soft Skills</h3>
+            <p>Communication • Teamwork • Time Management</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section fade-in">
+      <div class="container">
+        <p class="section-label">PROJECTS</p>
+        <h2 class="section-title">Things I've built</h2>
+        <div class="projects-grid staggered-parent">
+          
+          <article class="project-card light-panel hover-zoom-project staggered-animate">
+            <div class="project-number">01</div>
+            <h3>Laundry Booking Application</h3>
+            <p>
+              A Flask-based full-stack web application for hostel laundry management with 
+              role-based authentication, slot booking, booking history, and admin management.
+            </p>
+            <div class="tags">
+              <span>Python</span><span>Flask</span><span>SQLite</span><span>HTML/CSS</span>
+            </div>
+          </article>
+
+          <article class="project-card light-panel hover-zoom-project staggered-animate">
+            <div class="project-number">02</div>
+            <h3>Student Result Management</h3>
+            <p>
+              A web-based result management system with Admin and Student roles, database-driven 
+              marks management, secure student access, and automatic pass/fail logic.
+            </p>
+            <div class="tags">
+              <span>Web</span><span>SQL</span><span>CRUD</span><span>Auth</span>
+            </div>
+          </article>
+
+          <article class="project-card light-panel highlight-card hover-zoom-project staggered-animate">
+            <div class="project-number">03</div>
+            <h3>Arshith Group Platform</h3>
+            <p>
+              A collaborative web project managed through GitHub with the Arshith group. Focused on building scalable UI components, team version control, and robust backend integration.
+            </p>
+            <div class="tags">
+              <span>GitHub</span><span>Collaboration</span><span>Web UI</span>
+            </div>
+            <a href="https://github.com/sravani1313" target="_blank" class="project-link hover-underline">View on GitHub ↗</a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section fade-in alternate-bg">
+      <div class="container">
+        <p class="section-label">EDUCATION & CERTIFICATION</p>
+        <h2 class="section-title">My academic journey</h2>
+        
+        <div class="education-layout">
+          <div class="timeline">
+            <div class="timeline-item light-panel slide-in-timeline" data-direction="left">
+              <span class="year">2026</span>
+              <div class="timeline-content">
+                <h3>B.Tech - Computer Science Engineering</h3>
+                <p>Srinivasa Ramanujan Institute of Technology, Anantapur</p>
+                <span class="timeline-score">CGPA: 7.82</span>
+              </div>
+            </div>
+            <div class="timeline-item light-panel slide-in-timeline" data-direction="right">
+              <span class="year">2022</span>
+              <div class="timeline-content">
+                <h3>Intermediate</h3>
+                <p>Narayana Junior College, Guntakal</p>
+                <span class="timeline-score">CGPA: 8.2</span>
+              </div>
+            </div>
+            <div class="timeline-item light-panel slide-in-timeline" data-direction="left">
+              <span class="year">2020</span>
+              <div class="timeline-content">
+                <h3>SSC</h3>
+                <p>Vignan E.M High School, Guntakal</p>
+                <span class="timeline-score">CGPA: 9.1</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="cert-card light-panel professional-card float-animate">
+            <div class="cert-icon🏆"></div>
+            <h3>Certification</h3>
+            <p>ServiceNow Certified System Administrator (CSA)</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section fade-in">
+      <div class="container">
+        <div class="contact-box light-panel glow-shadow">
+          <p class="section-label">CONTACT</p>
+          <h2 class="section-title">Let's connect</h2>
+          <p class="contact-subtitle">I'm open to opportunities in web development and entry-level software roles.</p>
+          
+          <div class="contact-grid">
+            <a href="mailto:godlasravani904@gmail.com" class="contact-pill pulsing-pill">
+              <span class="icon">✉</span> godlasravani904@gmail.com
+            </a>
+            <a href="tel:+918688949884" class="contact-pill pulsing-pill">
+              <span class="icon">☎</span> +91 8688949884
+            </a>
+            <a href="https://www.linkedin.com/in/sravani-g-950b7a259" target="_blank" rel="noopener" class="contact-pill pulsing-pill">
+              <span class="icon">in</span> LinkedIn Profile
+            </a>
+            <a href="https://github.com/sravani1313" target="_blank" rel="noopener" class="contact-pill pulsing-pill">
+              <span class="icon">◉</span> GitHub Portfolio
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <a class="logo" href="#home">GS<span>.</span></a>
+      <p>© <span id="year"></span> Godla Sravani. Built with HTML, CSS & JavaScript.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
